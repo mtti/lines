@@ -1,0 +1,41 @@
+{
+  "name": "@mtti/lines",
+  "version": "0.1.0",
+  "description": "Read streams line-by-line",
+  "repository": "github:mtti/lines",
+  "author": "Matti Hiltunen",
+  "license": "Apache-2.0",
+  "private": true,
+  "engines": {
+    "node": ">=10.15.0"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc",
+    "jest": "jest --config ./jest.config.json",
+    "lint": "eslint 'src/**/*.ts'",
+    "lint:fix": "eslint --fix 'src/**/*.ts'",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run test",
+    "setup": "npm install",
+    "test": "npm run lint && npm run jest",
+    "tsc": "tsc"
+  },
+  "files": [
+    "lib",
+    "!lib/**/*.spec.js",
+    "!lib/**/*.spec.d.ts"
+  ],
+  "devDependencies": {
+    "@mtti/eslint-config-typescript": "1.0.0",
+    "@types/jest": "24.0.18",
+    "@types/node": "12.7.11",
+    "@typescript-eslint/eslint-plugin": "2.3.2",
+    "@typescript-eslint/parser": "2.3.2",
+    "eslint": "6.5.1",
+    "eslint-plugin-import": "2.18.2",
+    "jest": "24.9.0",
+    "ts-jest": "24.1.0",
+    "typescript": "3.6.3"
+  }
+}
