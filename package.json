@@ -1,11 +1,10 @@
 {
   "name": "@mtti/lines",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Read streams line-by-line",
   "repository": "github:mtti/lines",
   "author": "Matti Hiltunen",
   "license": "Apache-2.0",
-  "private": true,
   "engines": {
     "node": ">=10.15.0"
   },
