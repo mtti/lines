@@ -20,7 +20,7 @@ ls.on('data', (line) => {
 input.pipe(ls);
 ```
 
-## Features an quirks
+## Features and quirks
 
 * Can receive `Buffer` and `string`, outputs individual lines as `string`.
 * Correctly handles Unicode multi-part strings and CRLF between chunks.
