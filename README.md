@@ -1,4 +1,4 @@
-[![Written in TypeScript](https://flat.badgen.net/badge/icon/typescript?icon=typescript&label)](http://www.typescriptlang.org/) [![npm](https://flat.badgen.net/npm/v/@mtti/lines?icon=npm)](https://www.npmjs.com/package/@mtti/lines) [![Travis](https://flat.badgen.net/travis/mtti/lines?icon=travis)](https://travis-ci.org/mtti/lines) [![License](https://flat.badgen.net/github/license/mtti/lines)](https://github.com/mtti/lines/blob/master/LICENSE)
+[![Written in TypeScript](https://flat.badgen.net/badge/icon/typescript?icon=typescript&label)](http://www.typescriptlang.org/) [![npm](https://flat.badgen.net/npm/v/@mtti/lines?icon=npm)](https://www.npmjs.com/package/@mtti/lines) [![License](https://flat.badgen.net/github/license/mtti/lines)](https://github.com/mtti/lines/blob/master/LICENSE)
 
 Implements a *LineStream* class for splitting streaming text by line.
 
