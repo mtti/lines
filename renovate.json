@@ -1,9 +1,5 @@
 {
   "extends": [
-    "config:base"
-  ],
-  "schedule": [
-    "on friday"
-  ],
-  "automerge": true
+    "github>mtti/renovate-config:node-lib"
+  ]
 }
