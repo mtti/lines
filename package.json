@@ -22,7 +22,7 @@
   },
   "files": [
     "lib",
-    "!lib/**/*.spec.*"
+    "!lib/**/*.test.*"
   ],
   "devDependencies": {
     "@mtti/eslint-config-typescript": "3.0.0",
