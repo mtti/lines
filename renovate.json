@@ -1,0 +1,5 @@
+{
+  "extends": [
+    "github>mtti/renovate-config:node-lib"
+  ]
+}
