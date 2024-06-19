@@ -19,7 +19,8 @@
     "prepublishOnly": "npm run test",
     "setup": "npm install",
     "test": "npm run lint && npm run jest",
-    "tsc": "tsc"
+    "tsc": "tsc",
+    "set-version": "ts-node scripts/set-version.ts"
   },
   "files": [
     "lib",
